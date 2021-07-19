@@ -5,10 +5,6 @@ import tkinter as tk
 import tkinter.font as tkFont
 from tkinter import filedialog
 
-'''
-If there are any errors while downloading, you may try running 'youtube-dl --rm-cache-dir'
-'''
-
 def YT_downloader():
     global path, option
     
